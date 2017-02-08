@@ -1,0 +1,15 @@
+PODS:
+  - IQKeyboardManagerSwift (4.0.8)
+  - TTGSnackbar (1.4.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - TTGSnackbar
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  TTGSnackbar: 466f11eb59fb7e0f7af7f05d9165abce72adf5cc
+
+PODFILE CHECKSUM: 54a2f0eca2bc142d81da192d8c8675013b45c00c
+
+COCOAPODS: 1.1.1

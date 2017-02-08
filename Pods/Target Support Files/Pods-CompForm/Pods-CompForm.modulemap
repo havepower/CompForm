@@ -1,0 +1,6 @@
+framework module Pods_CompForm {
+  umbrella header "Pods-CompForm-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2097C76C6DC679584D7BCC6 /* Pods_CompForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD2EF371FF885D2C0965B25 /* Pods_CompForm.framework */; };
+		EC9AFAC01E4A57D200F9049F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9AFABF1E4A57D200F9049F /* Keyboard.xib */; };
+		EC9AFAC21E4A57DB00F9049F /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9AFAC11E4A57DB00F9049F /* Keyboard.swift */; };
 		ECA0539D1E4597D000F29C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA0539C1E4597D000F29C60 /* AppDelegate.swift */; };
 		ECA0539F1E4597D000F29C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA0539E1E4597D000F29C60 /* ViewController.swift */; };
 		ECA053A21E4597D000F29C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA053A01E4597D000F29C60 /* Main.storyboard */; };
 		ECA053A51E4597D000F29C60 /* CompForm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECA053A31E4597D000F29C60 /* CompForm.xcdatamodeld */; };
 		ECA053A71E4597D000F29C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA053A61E4597D000F29C60 /* Assets.xcassets */; };
 		ECA053AA1E4597D000F29C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA053A81E4597D000F29C60 /* LaunchScreen.storyboard */; };
+		ECA053B21E45E4B900F29C60 /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA053B11E45E4B900F29C60 /* bottom.png */; };
+		ECA053B81E45FB1A00F29C60 /* bg_enter.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA053B61E45FB1A00F29C60 /* bg_enter.png */; };
+		ECA053B91E45FB1A00F29C60 /* bg_login.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA053B71E45FB1A00F29C60 /* bg_login.png */; };
+		ECA053BC1E45FDC100F29C60 /* ic_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA053BA1E45FDC100F29C60 /* ic_checked.png */; };
+		ECA053BD1E45FDC100F29C60 /* ic_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA053BB1E45FDC100F29C60 /* ic_unchecked.png */; };
+		ECA053C01E45FDE200F29C60 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA053BF1E45FDE200F29C60 /* CheckBox.swift */; };
+		ECA053C21E45FDEA00F29C60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA053C11E45FDEA00F29C60 /* Constants.swift */; };
+		ECA053C51E461D8A00F29C60 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA053C41E461D8A00F29C60 /* AdminViewController.swift */; };
+		ECA053C71E46276500F29C60 /* item.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA053C61E46276500F29C60 /* item.png */; };
+		ECA053C91E46276D00F29C60 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA053C81E46276D00F29C60 /* o.png */; };
+		ECA053CB1E46277400F29C60 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA053CA1E46277400F29C60 /* x.png */; };
+		ECA053CD1E46293C00F29C60 /* bg_export.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA053CC1E46293C00F29C60 /* bg_export.png */; };
+		ECBD6F631E48820900C429F5 /* Richies-events_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECBD6F621E48820900C429F5 /* Richies-events_logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BD2EF371FF885D2C0965B25 /* Pods_CompForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678B30A378F6D890C94AA435 /* Pods-CompForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompForm.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompForm/Pods-CompForm.release.xcconfig"; sourceTree = "<group>"; };
+		A5E3C38ADCD95AA3FEA8B9EF /* Pods-CompForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompForm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CompForm/Pods-CompForm.debug.xcconfig"; sourceTree = "<group>"; };
+		EC9AFABF1E4A57D200F9049F /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		EC9AFAC11E4A57DB00F9049F /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		ECA053991E4597D000F29C60 /* CompForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA0539C1E4597D000F29C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECA0539E1E4597D000F29C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +45,19 @@
 		ECA053A61E4597D000F29C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA053A91E4597D000F29C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECA053AB1E4597D000F29C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA053B11E45E4B900F29C60 /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
+		ECA053B61E45FB1A00F29C60 /* bg_enter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_enter.png; sourceTree = "<group>"; };
+		ECA053B71E45FB1A00F29C60 /* bg_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_login.png; sourceTree = "<group>"; };
+		ECA053BA1E45FDC100F29C60 /* ic_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_checked.png; sourceTree = "<group>"; };
+		ECA053BB1E45FDC100F29C60 /* ic_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_unchecked.png; sourceTree = "<group>"; };
+		ECA053BF1E45FDE200F29C60 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		ECA053C11E45FDEA00F29C60 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ECA053C41E461D8A00F29C60 /* AdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		ECA053C61E46276500F29C60 /* item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item.png; sourceTree = "<group>"; };
+		ECA053C81E46276D00F29C60 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		ECA053CA1E46277400F29C60 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		ECA053CC1E46293C00F29C60 /* bg_export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_export.png; sourceTree = "<group>"; };
+		ECBD6F621E48820900C429F5 /* Richies-events_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Richies-events_logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2097C76C6DC679584D7BCC6 /* Pods_CompForm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2782E1D742E477B621AEB84C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5E3C38ADCD95AA3FEA8B9EF /* Pods-CompForm.debug.xcconfig */,
+				678B30A378F6D890C94AA435 /* Pods-CompForm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEBC5B6415F260E0E777C59E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BD2EF371FF885D2C0965B25 /* Pods_CompForm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECA053901E4597D000F29C60 = {
 			isa = PBXGroup;
 			children = (
 				ECA0539B1E4597D000F29C60 /* CompForm */,
 				ECA0539A1E4597D000F29C60 /* Products */,
+				2782E1D742E477B621AEB84C /* Pods */,
+				DEBC5B6415F260E0E777C59E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +110,10 @@
 		ECA0539B1E4597D000F29C60 /* CompForm */ = {
 			isa = PBXGroup;
 			children = (
+				ECA053C31E461D5D00F29C60 /* View Controllers */,
+				ECA053BE1E45FDCE00F29C60 /* utils */,
+				ECA053B31E45E4CB00F29C60 /* images */,
 				ECA0539C1E4597D000F29C60 /* AppDelegate.swift */,
-				ECA0539E1E4597D000F29C60 /* ViewController.swift */,
 				ECA053A01E4597D000F29C60 /* Main.storyboard */,
 				ECA053A61E4597D000F29C60 /* Assets.xcassets */,
 				ECA053A81E4597D000F29C60 /* LaunchScreen.storyboard */,
@@ -67,6 +123,43 @@
 			path = CompForm;
 			sourceTree = "<group>";
 		};
+		ECA053B31E45E4CB00F29C60 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD6F621E48820900C429F5 /* Richies-events_logo.jpg */,
+				ECA053C81E46276D00F29C60 /* o.png */,
+				ECA053CA1E46277400F29C60 /* x.png */,
+				ECA053CC1E46293C00F29C60 /* bg_export.png */,
+				ECA053C61E46276500F29C60 /* item.png */,
+				ECA053BA1E45FDC100F29C60 /* ic_checked.png */,
+				ECA053BB1E45FDC100F29C60 /* ic_unchecked.png */,
+				ECA053B61E45FB1A00F29C60 /* bg_enter.png */,
+				ECA053B71E45FB1A00F29C60 /* bg_login.png */,
+				ECA053B11E45E4B900F29C60 /* bottom.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		ECA053BE1E45FDCE00F29C60 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC9AFAC11E4A57DB00F9049F /* Keyboard.swift */,
+				EC9AFABF1E4A57D200F9049F /* Keyboard.xib */,
+				ECA053BF1E45FDE200F29C60 /* CheckBox.swift */,
+				ECA053C11E45FDEA00F29C60 /* Constants.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		ECA053C31E461D5D00F29C60 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECA0539E1E4597D000F29C60 /* ViewController.swift */,
+				ECA053C41E461D8A00F29C60 /* AdminViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECA053AE1E4597D000F29C60 /* Build configuration list for PBXNativeTarget "CompForm" */;
 			buildPhases = (
+				DB94CDADE34AB10661BFD790 /* [CP] Check Pods Manifest.lock */,
 				ECA053951E4597D000F29C60 /* Sources */,
 				ECA053961E4597D000F29C60 /* Frameworks */,
 				ECA053971E4597D000F29C60 /* Resources */,
+				5339858B227D778750D65189 /* [CP] Embed Pods Frameworks */,
+				C892F0CDAF227A67A1B2982A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +195,7 @@
 				TargetAttributes = {
 					ECA053981E4597D000F29C60 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HVPJM265B7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,19 +223,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9AFAC01E4A57D200F9049F /* Keyboard.xib in Resources */,
+				ECA053CB1E46277400F29C60 /* x.png in Resources */,
+				ECBD6F631E48820900C429F5 /* Richies-events_logo.jpg in Resources */,
 				ECA053AA1E4597D000F29C60 /* LaunchScreen.storyboard in Resources */,
 				ECA053A71E4597D000F29C60 /* Assets.xcassets in Resources */,
+				ECA053C71E46276500F29C60 /* item.png in Resources */,
+				ECA053BD1E45FDC100F29C60 /* ic_unchecked.png in Resources */,
+				ECA053BC1E45FDC100F29C60 /* ic_checked.png in Resources */,
+				ECA053C91E46276D00F29C60 /* o.png in Resources */,
+				ECA053B81E45FB1A00F29C60 /* bg_enter.png in Resources */,
+				ECA053B21E45E4B900F29C60 /* bottom.png in Resources */,
+				ECA053B91E45FB1A00F29C60 /* bg_login.png in Resources */,
+				ECA053CD1E46293C00F29C60 /* bg_export.png in Resources */,
 				ECA053A21E4597D000F29C60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5339858B227D778750D65189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CompForm/Pods-CompForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C892F0CDAF227A67A1B2982A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CompForm/Pods-CompForm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB94CDADE34AB10661BFD790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECA053951E4597D000F29C60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA053C51E461D8A00F29C60 /* AdminViewController.swift in Sources */,
+				ECA053C21E45FDEA00F29C60 /* Constants.swift in Sources */,
+				EC9AFAC21E4A57DB00F9049F /* Keyboard.swift in Sources */,
+				ECA053C01E45FDE200F29C60 /* CheckBox.swift in Sources */,
 				ECA053A51E4597D000F29C60 /* CompForm.xcdatamodeld in Sources */,
 				ECA0539F1E4597D000F29C60 /* ViewController.swift in Sources */,
 				ECA0539D1E4597D000F29C60 /* AppDelegate.swift in Sources */,
@@ -262,25 +422,33 @@
 		};
 		ECA053AF1E4597D000F29C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E3C38ADCD95AA3FEA8B9EF /* Pods-CompForm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVPJM265B7;
 				INFOPLIST_FILE = CompForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bd.CompForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		ECA053B01E4597D000F29C60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678B30A378F6D890C94AA435 /* Pods-CompForm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVPJM265B7;
 				INFOPLIST_FILE = CompForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bd.CompForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -303,6 +471,7 @@
 				ECA053B01E4597D000F29C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
